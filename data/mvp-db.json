@@ -1,0 +1,134 @@
+{
+  "assets": [
+    {
+      "id": "asset_71fa9812",
+      "fileName": "icard.jpeg",
+      "mimeType": "image/jpeg",
+      "size": 45609,
+      "createdAt": "2026-04-25T08:08:02.704Z",
+      "imageUrl": "/uploads/1777104482687-asset_ffafaa48.jpeg",
+      "fingerprint": {
+        "hash": "032e5603e2d5ccca8f300180bc5af3e04538b01d4bd05303d89ac8bfb112a013",
+        "labels": []
+      },
+      "ownershipVerification": {
+        "watermarkDetected": false,
+        "metadataValid": true,
+        "notes": [
+          "Metadata is consistent with an owned uploaded asset.",
+          "No explicit watermark marker detected; ownership relies on stored upload provenance."
+        ]
+      }
+    }
+  ],
+  "monitoredImages": [
+    {
+      "id": "mon_0_91c9e468",
+      "sourceUrl": "https://example-social.com/post/football-highlight",
+      "title": "Fan repost - Match Highlight",
+      "imageUrl": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=900&q=80",
+      "fingerprint": {
+        "hash": "46616e207265706f7374202d204d6174",
+        "labels": [
+          "sports",
+          "football",
+          "player",
+          "stadium",
+          "team"
+        ]
+      }
+    },
+    {
+      "id": "mon_1_b05689c3",
+      "sourceUrl": "https://sports-news.example.com/story/2026/final-recap",
+      "title": "Sports news thumbnail",
+      "imageUrl": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=900&q=80",
+      "fingerprint": {
+        "hash": "53706f727473206e657773207468756d",
+        "labels": [
+          "sports",
+          "team",
+          "stadium",
+          "crowd"
+        ]
+      }
+    },
+    {
+      "id": "mon_2_452b713b",
+      "sourceUrl": "https://promo-site.example.com/match-day",
+      "title": "Unauthorized team logo use",
+      "imageUrl": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=900&q=80",
+      "fingerprint": {
+        "hash": "556e617574686f72697a656420746561",
+        "labels": [
+          "logo",
+          "sports",
+          "team",
+          "branding"
+        ]
+      }
+    },
+    {
+      "id": "mon_3_490c9ea8",
+      "sourceUrl": "https://forum.example.net/topic/393",
+      "title": "Low relevance meme image",
+      "imageUrl": "https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=900&q=80",
+      "fingerprint": {
+        "hash": "4c6f772072656c6576616e6365206d65",
+        "labels": [
+          "meme",
+          "people",
+          "internet"
+        ]
+      }
+    }
+  ],
+  "detections": [],
+  "cases": [],
+  "connectors": [
+    {
+      "name": "YouTube Content API",
+      "type": "api",
+      "sourceDomain": "youtube.com",
+      "status": "active",
+      "rateLimitPerMin": 30,
+      "id": "con_e072c09a"
+    },
+    {
+      "name": "X Media Monitor",
+      "type": "api",
+      "sourceDomain": "x.com",
+      "status": "active",
+      "rateLimitPerMin": 45,
+      "id": "con_df49bfc5"
+    },
+    {
+      "name": "Forums Scraper",
+      "type": "scraper",
+      "sourceDomain": "sportsforums.example",
+      "status": "active",
+      "rateLimitPerMin": 20,
+      "id": "con_72bff8b9"
+    },
+    {
+      "name": "Marketplace Tracker",
+      "type": "scraper",
+      "sourceDomain": "resale.example",
+      "status": "paused",
+      "rateLimitPerMin": 15,
+      "id": "con_cd57f1d0"
+    }
+  ],
+  "crawlJobs": [],
+  "discoveries": [],
+  "compliance": {
+    "respectRobotsTxt": true,
+    "maxRequestsPerMinute": 60,
+    "regionsAllowed": [
+      "US",
+      "EU",
+      "UAE"
+    ],
+    "termsAccepted": true
+  }
+}

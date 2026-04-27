@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Fan repost - Match Highlight",
+    "sourceUrl": "https://example-social.com/post/football-highlight",
+    "labels": ["sports", "football", "player", "stadium", "team"]
+  },
+  {
+    "title": "Sports news thumbnail",
+    "sourceUrl": "https://sports-news.example.com/story/2026/final-recap",
+    "labels": ["sports", "team", "stadium", "crowd"]
+  },
+  {
+    "title": "Unauthorized team logo use",
+    "sourceUrl": "https://promo-site.example.com/match-day",
+    "labels": ["logo", "sports", "team", "branding"]
+  }
+]
