@@ -1,0 +1,11 @@
+[build]
+# Railway auto-detects the Dockerfile and builds from it.
+# No explicit builder needed — Dockerfile handles Node 22, npm ci, and next build.
+
+[deploy]
+# Railway injects PORT at runtime; the standalone server.js reads it automatically.
+# Healthcheck ensures Railway doesn't route traffic before the app is ready.
+healthcheckPath = "/"
+healthcheckTimeout = 30
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 3

@@ -1,8 +1,13 @@
 Dockerfile
 .dockerignore
 node_modules
-npm-debug.log
-README.md
 .next
 .git
 .env*.local
+*.log
+*.tsbuildinfo
+lovable-ui
+README.md
+
+# Ignore compiled SQLite DB but keep seed JSON files
+data/*.sqlite

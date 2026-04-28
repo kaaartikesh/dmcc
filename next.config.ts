@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   output: "standalone",
   reactStrictMode: true,
   images: {
-    domains: [],
+    remotePatterns: [],
   },
   turbopack: {
     root: __dirname,
